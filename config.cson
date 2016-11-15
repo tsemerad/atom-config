@@ -1,0 +1,60 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+      ]
+    disabledPackages: [
+      "linter-js-standard"
+      "nuclide"
+      "metrics"
+      "haskell-grammar"
+      "language-thrift"
+      "tool-bar"
+      "node-debugger"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      "node_modules"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 17
+    invisibles: {}
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "d8f70a2f-75e3-bc57-d7d0-cf3061ff0e92"
+  "language-babel":
+    suppressTranspileOnSaveMessages: true
+  linter:
+    errorPanelHeight: 48
+  "linter-js-standard":
+    honorStyleSettings: true
+    showEslintRules: true
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-arcanist": {}
+    "nuclide-buck-files": {}
+    "nuclide-file-tree": {}
+    "nuclide-flow": {}
+    "nuclide-format-js": {}
+    "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-ocaml": {}
+    "nuclide-output": {}
+    use:
+      "nuclide-buck-files": false
+      "nuclide-buck-toolbar": false
+      "nuclide-hhvm-toolbar": false
+  "tool-bar":
+    position: "Right"
+  welcome:
+    showOnStartup: false

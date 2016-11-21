@@ -14,12 +14,10 @@
         "BUCK"
       ]
     disabledPackages: [
-      "linter-js-standard"
       "metrics"
       "haskell-grammar"
       "language-thrift"
       "tool-bar"
-      "node-debugger"
       "tree-view"
       "linter"
       "vim-mode"

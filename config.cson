@@ -26,10 +26,14 @@
     ignoredNames: [
       ".git"
       ".hg"
+      "*.map"
       ".svn"
       ".DS_Store"
       "Thumbs.db"
+      "build"
+      "dist"
       "node_modules"
+      "release"
     ]
     telemetryConsent: "limited"
   editor:

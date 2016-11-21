@@ -3,19 +3,28 @@
     customFileTypes:
       "source.ini": [
         ".flowconfig"
+        ".buckconfig"
+        ".hgrc"
       ]
       "source.json": [
         ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
       ]
     disabledPackages: [
       "linter-js-standard"
-      "nuclide"
       "metrics"
       "haskell-grammar"
       "language-thrift"
       "tool-bar"
       "node-debugger"
+      "tree-view"
+      "linter"
+      "vim-mode"
     ]
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -42,18 +51,31 @@
     installRecommendedPackages: true
     "nuclide-arcanist": {}
     "nuclide-buck-files": {}
-    "nuclide-file-tree": {}
+    "nuclide-ctags":
+      disableWithHack: false
+    "nuclide-file-tree":
+      hideIgnoredNames: false
+      revealFileOnSwitch: true
     "nuclide-flow": {}
     "nuclide-format-js": {}
     "nuclide-health": {}
+    "nuclide-hg-repository": {}
     "nuclide-home":
       showHome: false
+    "nuclide-notifications": {}
     "nuclide-ocaml": {}
     "nuclide-output": {}
     use:
+      "nuclide-arcanist": false
       "nuclide-buck-files": false
       "nuclide-buck-toolbar": false
+      "nuclide-hack": false
+      "nuclide-hg-conflict-resolver": false
+      "nuclide-hg-repository": false
       "nuclide-hhvm-toolbar": false
+      "nuclide-language-hack": false
+      "nuclide-source-control-side-bar": false
+      "nuclide-task-runner": false
   "tool-bar":
     position: "Right"
   welcome:

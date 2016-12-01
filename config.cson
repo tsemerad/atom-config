@@ -36,9 +36,11 @@
       "release"
     ]
     telemetryConsent: "limited"
+    warnOnLargeFileLimit: 8
   editor:
     fontSize: 17
     invisibles: {}
+    preferredLineLength: 120
     zoomFontWhenCtrlScrolling: true
   "exception-reporting":
     userId: "d8f70a2f-75e3-bc57-d7d0-cf3061ff0e92"

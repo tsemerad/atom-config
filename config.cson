@@ -80,6 +80,20 @@
       "nuclide-language-hack": false
       "nuclide-source-control-side-bar": false
       "nuclide-task-runner": false
+  "prettier-atom":
+    formatOnSaveOptions: {}
+    prettierOptions:
+      printWidth: 120
+      semi: false
+      singleQuote: true
+      trailingComma: "all"
+    useEslint: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   "tool-bar":
     position: "Right"
   welcome:

@@ -2,27 +2,19 @@
   core:
     customFileTypes:
       "source.ini": [
-        ".flowconfig"
         ".buckconfig"
         ".hgrc"
+        ".flowconfig"
       ]
       "source.json": [
-        ".arcconfig"
         "BUCK.autodeps"
       ]
       "source.python": [
         "BUCK"
       ]
     disabledPackages: [
-      "metrics"
-      "haskell-grammar"
-      "language-thrift"
-      "tool-bar"
       "tree-view"
-      "linter"
-      "vim-mode"
     ]
-    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -35,40 +27,24 @@
       "node_modules"
       "release"
     ]
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
     warnOnLargeFileLimit: 8
   editor:
     fontSize: 17
-    invisibles: {}
     preferredLineLength: 120
     zoomFontWhenCtrlScrolling: true
   "exception-reporting":
-    userId: "d8f70a2f-75e3-bc57-d7d0-cf3061ff0e92"
-  "language-babel":
-    suppressTranspileOnSaveMessages: true
-  linter:
-    errorPanelHeight: 48
-  "linter-js-standard":
-    honorStyleSettings: true
-    showEslintRules: true
+    userId: "3c864202-5b51-47d8-9311-b5e730049775"
+  "linter-ui-default":
+    showPanel: true
   nuclide:
-    installRecommendedPackages: true
-    "nuclide-arcanist": {}
-    "nuclide-buck-files": {}
-    "nuclide-ctags":
-      disableWithHack: false
     "nuclide-file-tree":
       hideIgnoredNames: false
       revealFileOnSwitch: true
-    "nuclide-flow": {}
-    "nuclide-format-js": {}
-    "nuclide-health": {}
-    "nuclide-hg-repository": {}
+    "nuclide-flow":
+      canUseFlowBin: true
     "nuclide-home":
       showHome: false
-    "nuclide-notifications": {}
-    "nuclide-ocaml": {}
-    "nuclide-output": {}
     use:
       "nuclide-arcanist": false
       "nuclide-buck-files": false
@@ -91,8 +67,8 @@
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
+    leftEditorColor: "green"
+    rightEditorColor: "red"
     syncHorizontalScroll: true
   "tool-bar":
     position: "Right"
